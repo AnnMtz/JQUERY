@@ -83,6 +83,7 @@ p {
   border-radius: 5px;
   margin-bottom: 20px;
   padding: 20px;
+  display: none;
 }
 .info-wrapper .mentor-info h1 {
   text-align: center;
@@ -100,6 +101,14 @@ p {
   flex-basis: 70%;
   align-items: center;
   font-size: 16px;
+}
+
+.active {
+  border: 1px solid black;
+  color:black;
+  background: slateblue;
+  opacity: 0.9;
+  font-style: oblique;
 }
 
 /*# sourceMappingURL=main.css.map */
