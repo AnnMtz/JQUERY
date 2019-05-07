@@ -41,16 +41,7 @@ $('ul li').on('click', ()=> {
 	$('ul').slideToggle(2000)
 })
 
-// $('.info-wrapper').hide()
-
 var selectedId = "#first";
-// $('first').show();
-// $('second').show()
-// $('third').show()
-
-// console.log($(selectedId))
-// var selectedMentor = $(event.target).data(mentor)
-// $(selectedMentor).show()
 const showMentor = (mentorId)=> {
 	$('.info-wrapper .mentor-info').hide()
 	$(mentorId).show()
